@@ -1,8 +1,9 @@
 body, * {
-    margin: 0;
+    
     box-sizing: border-box;
     max-height:auto;
     padding:0;
+ 
 }
 
 .top {
@@ -52,20 +53,19 @@ body, * {
 nav {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 62px;
-    margin-left: 100px;
+    margin-top: 62px;   
 }
 
 ul, li {
     display: flex;
-    margin-right: 20px;
-    margin-left:20px;
+    margin-right: 0px;
+    margin-left:25px;
 }
 
 .nav-icon {
     width: 24px;
     height: 24px;
-    margin-right: 170px;
+    margin-right: 160px;
 }
 
 .logo {
@@ -73,10 +73,11 @@ ul, li {
     height: 22px; 
     font-size: 32px;
     line-height: 38.4px;
+    margin-left:280px;
 }
 
 .searchbar {
-    width: 400px;
+    width: 300px;
     height: 48px;
     border-radius: 62px;
     padding-top: 10px;
@@ -85,6 +86,22 @@ ul, li {
     padding-left: 16px;
     margin-right: 50px;
     background-color: #ddd;
+}
+
+.brand-container { 
+    display:flex;
+    justify-content:space-evenly;
+    padding:115px;
+    padding-top:40px;
+    
+}
+ul, li ~ .brand-items{
+    margin-left:0px;
+    margin-right:50px;
+}
+.brand-items{
+    width:100px;
+    height:38px;
 }
 
 @media screen and (max-width: 880px) {
