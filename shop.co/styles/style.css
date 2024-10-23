@@ -1,6 +1,106 @@
 body, * {
     margin: 0;
     box-sizing: border-box;
+    max-height:auto;
+    padding:0;
+}
+
+.top {
+    background-color: black;
+    width: 100%;
+    height: 38px;
+    text-align: center;
+}
+
+.close-top {
+    display: none;
+}
+
+.top-paragraph {
+    color: white;
+    height: 19px; 
+    padding-top: 9px; 
+    margin-left: 80%;
+    width: 500px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.sign-up-link {
+    color: white;
+    font-weight: 500;
+    line-height: 18.9px;
+    font-size: 14px;
+}
+
+.top-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; /* Fixed here */
+}
+
+.close-icon {
+    margin-top: 9px;
+    width: 20px;
+    height: 20px;
+}
+
+.close-container {
+    display: block;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 62px;
+    margin-left: 100px;
+}
+
+ul, li {
+    display: flex;
+    margin-right: 20px;
+    margin-left:20px;
+}
+
+.nav-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 170px;
+}
+
+.logo {
+    width: 15 0px;
+    height: 22px; 
+    font-size: 32px;
+    line-height: 38.4px;
+}
+
+.searchbar {
+    width: 400px;
+    height: 48px;
+    border-radius: 62px;
+    padding-top: 10px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    margin-right: 50px;
+    background-color: #ddd;
+}
+
+@media screen and (max-width: 880px) {
+    .top-paragraph {
+        margin-left: 3%;
+
+    }
+    .list-items{
+        display:none;
+    }
+    .close-icon {
+        display: none;
+    }
+body, * {
+    margin: 0;
+    box-sizing: border-box;
 }
 
 .top {
@@ -60,9 +160,9 @@ ul, li {
 }
 
 .nav-icon {
-    width: 24px;
+    width: 62px;
     height: 24px;
-    margin-right: 170px;
+    margin-right: 160px;
 }
 
 .logo {
@@ -73,13 +173,14 @@ ul, li {
 }
 
 .searchbar {
-    width: 400px;
+    width: 470px;
     height: 48px;
     border-radius: 62px;
     padding-top: 10px;
     padding-right: 16px;
     padding-bottom: 12px;
     padding-left: 16px;
+    margin-top: 0; /* Fixed here */
     margin-right: 50px;
     background-color: #ddd;
 }
@@ -87,12 +188,148 @@ ul, li {
 @media screen and (max-width: 880px) {
     .top-paragraph {
         margin-left: 3%;
-
-    }
-    .list-items{
-        display:none;
     }
     .close-icon {
         display: none;
     }
+    body, * {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.top {
+    background-color: black;
+    width: 100%;
+    height: 38px;
+    text-align: center;
+}
+
+.close-top {
+    display: none;
+}
+
+.top-paragraph {
+    color: white;
+    height: 19px; 
+    padding-top: 9px; 
+    margin-left: 80%;
+    width: 500px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.sign-up-link {
+    color: white;
+    font-weight: 500;
+    line-height: 18.9px;
+    font-size: 14px;
+}
+
+.top-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; /* Fixed here */
+}
+
+.close-icon {
+    margin-top: 9px;
+    width: 20px;
+    height: 20px;
+}
+
+.close-container {
+    display: block;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 62px;
+    margin-left: 100px;
+}
+
+ul, li {
+    display: flex;
+    margin-right: 40px;
+}
+
+.nav-icon {
+    width: 62px;
+    height: 24px;
+    margin-right: 160px;
+}
+
+.logo {
+    width: 160px;
+    height: 22px; 
+    font-size: 32px;
+    line-height: 38.4px;
+}
+
+.searchbar {
+    width: 470px;
+    height: 48px;
+    border-radius: 62px;
+    padding-top: 10px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    margin-top: 0; /* Fixed here */
+    margin-right: 50px;
+    background-color: #ddd;
+    display:block
+}
+
+
+
+.jumbotron-container {
+    position: relative;
+}
+
+.jumbotron-container h1 {
+    position: absolute;
+    top: 20%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    color: white; /* Ensure text is visible */
+    text-align: center; /* Center the text */
+    font-size: 64px; /* Default font size */
+    font-weight: 800; /* Bold text */
+    width: 80%; /* Adjust width to fit smaller screens */
+}
+
+@media screen and (max-width: 880px) {
+    .top-paragraph {
+        margin-left: 3%;
+    }
+    .close-icon {
+        display: none;
+    }
+    .nav-icon{
+        margin-left:150px;
+    }   
+    
+    .jumbotron-container h1 {
+        font-size: 32px; /* Smaller font size for mobile */
+        padding: 0 20px; /* Add some padding to prevent overflow */
+    }
+            .jumbotron-container h1 {
+        font-size: 48px; /* Medium font size for tablets */
+    }
+ 
+    
+}
+
+@media screen and (max-width:1450px) {
+
+    .searchbar{
+        display:none;
+    }
+        .jumbotron-container h1 {
+        font-size: 48px; /* Medium font size for tablets */
+    }
+    
+}
+
+}
+
 }
