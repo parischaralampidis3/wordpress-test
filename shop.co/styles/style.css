@@ -93,7 +93,28 @@ ul, li {
     justify-content:space-evenly;
     padding:115px;
     padding-top:40px;
+}
+.arrival-headtitle{
+    width:403;
+    margin-top:50px;
+    height:58px;
+    font-weight:700;
+    font-size:48px;
+    text-align:center;
+    color:black;
+
+}
+.arrival-box{
+    background-color:#F0EEED;
+    height:295px;
+    width:298px;
+    border-radius:20px;
     
+}
+.arrivals-grid{
+    display: flex;
+    justify-content:space-around;
+    padding:100px;
 }
 ul, li ~ .brand-items{
     margin-left:0px;
@@ -102,6 +123,63 @@ ul, li ~ .brand-items{
 .brand-items{
     width:100px;
     height:38px;
+}
+.item-title{
+    width:225px;
+    height:27px;
+    font-weight:700;
+    font-size:20px;
+    line-height:27px;
+    margin-top:10px; 
+}
+.item-details{
+    margin-top:20px;
+}
+.underline-price{
+    text-decoration-line: line-through; 
+    opacity:0.4;
+    margin-left:10px;
+}
+.price-details-container{
+    display:flex;
+}
+.price{
+    font-size:24px;
+    font-weight:700px;
+    line-height:32.4px;
+    width:55px;
+    height:32px;
+}
+.discount{
+    top:6px;
+    margin-left:14px;
+    margin-top:14px;
+    border-radius:62px;
+    width:58px;
+    height:28px;
+}
+.btn-container{
+    margin-top:30px;
+    text-align:center;
+}
+.viewBtn {
+    width: 200px;
+    height: 40px;
+    margin-top: 26px;
+    border-radius: 62px;
+    border: 1px solid #999; 
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: white; /* Set the background color */
+    color: black; /* Set the text color */
+    cursor: pointer; /* Change the cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.viewBtn:hover {
+    background-color: white; /* Darker shade on hover */
 }
 
 @media screen and (max-width: 880px) {
