@@ -9,9 +9,30 @@
         height:38px;
         text-align: center;
     }
+    .close-top{
+        display:none;
+    }
     .top-paragraph{
         color:white;
         height:19px; 
-        padding-top:9px;
-      
+        padding-top:9px; 
+        margin-left:544px;
+        font-weight:400;
+        font-size:14px;
+    }
+    .sign-up-link{
+        color:white;
+        font-weight:500;
+        line-height:18.9px;
+        font-size:14px;
+    }
+    .top-container{
+        display:flex;
+        justify-content: space-around;
+        align-items:items-center;
+    }
+    .close-icon{
+        margin-top:9px;
+        width:20px;
+        height:20px;
     }
