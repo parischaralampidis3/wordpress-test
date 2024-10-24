@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  wordpress:
+    image: wordpress:latest
+    ports:
+      - "8000:80"
+    volumes:
+      - wordpress_data:/var/www/html
+
+volumes:
+  wordpress_data: {}
