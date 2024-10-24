@@ -181,6 +181,89 @@ ul, li ~ .brand-items{
 .viewBtn:hover {
     background-color: white; /* Darker shade on hover */
 }
+.grid-dress-style {
+    display: grid;
+    background-color: #F0F0F0;
+    border-radius: 40px;
+    margin: 0 auto; /* Center the grid */
+    max-width: 1330px; /* Limit max width */
+    padding: 20px; /* Add padding */
+}
+
+.dress-style-heading {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 70px 0 20px; /* Adjusted margins */
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 20px; /* Space between images */
+}
+
+.grid-item {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden; /* Ensure subheading stays within the image border */
+}
+
+.image-grid-item {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 20px; /* Match border radius */
+}
+
+.one{
+width:407px;
+height:289px;
+margin-left:64px;
+
+}
+.two{
+width:684px;
+height:289px;
+margin-right:500px;
+}
+.three{
+width:684px;
+height:289px;
+
+}
+.four{
+width:407px;
+height:289px;
+
+}
+
+.subheading {
+    position: absolute;
+    top:50px;
+    bottom: 0px; /* Position at the bottom */
+    left: 30px; /* Add some space from the left */
+    color: black; /* Text color */
+
+    padding: 5px; /* Padding around text */
+    font-weight: 700;
+    font-size: 24px; /* Adjusted font size */
+}
+
+.left-arrow{
+width:15.76px;
+height:18.75px;
+}
+.right-arrow{
+width:15.76px;
+height:18.75px;
+margin-left:10px;
+}
+
+.customers-heading{
+   font-size:48px;
+   font-weight:700;
+    color:black;
+}
 
 @media screen and (max-width: 880px) {
     .top-paragraph {
