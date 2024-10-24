@@ -289,7 +289,8 @@ height:289px;
     height:240px;
     border:1px solid #ddd;
     border-radius: 20px;
-    padding:30px;
+    padding:20px;
+   
 }
 .star-icon{
     width:138.84px;
@@ -308,14 +309,73 @@ height:289px;
     width:336px;
     height:88px;
     margin-top:10px;
-  
+
 }
 
 footer{
     background-color:#F0F0F0;
     width:100%;
-    height:499px;
+    height:600px;
+    margin-top:50px; 
+    position:relative;
 }
+.popupBox{
+position:absolute; 
+border-radius:20px; 
+width:1320px; 
+height:200px;
+left:100px;
+top:-50px; 
+background-color:black;
+}
+.popupTitle{
+    color: #fff;
+   width:551px;
+   height:94px;
+   font-size:40px;
+   line-height:45px;
+   font-weight:700;
+   margin-top:46px;
+   margin-left:100px;
+}
+.search-container {
+    position: relative;
+    left:70%;
+}
+
+input[name="email"] {
+    width: 300px; /* Adjust width as needed */
+    margin-top:0px;
+    padding: 10px 40px 10px 60px; /* Add padding to make space for the icon */
+    border: 1px solid #ccc; /* Optional: style the input */
+    border-radius: 20px; /* Optional: rounded corners */
+}
+input[name="email"]::placeholder {
+    color: #999; /* Change the placeholder color */
+    opacity: 1; /* Adjust opacity if needed */
+    font-size: 14px; /* Optional: adjust font size for the placeholder */
+    
+}
+
+.envelope-icon {
+    position: absolute; /* Position absolute to place it inside the input */
+    left: 40px; /* Adjust as needed */
+    top: 25%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust to perfectly center */
+    width: 20px; /* Adjust size as needed */
+    height: 20px; /* Adjust size as needed */
+}
+
+.subscribeBtn{
+    background-color: white;
+    padding:10px;
+    width:300px;
+    border-radius: 20px;
+    font-weight:500;
+    font-size: 16px;
+    line-height: 21.6px;
+}
+
 @media screen and (max-width: 880px) {
     .top-paragraph {
         margin-left: 3%;
@@ -327,10 +387,7 @@ footer{
     .close-icon {
         display: none;
     }
-body, * {
-    margin: 0;
-    box-sizing: border-box;
-}
+
 
 .top {
     background-color: black;
@@ -376,17 +433,7 @@ body, * {
     display: block;
 }
 
-nav {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 62px;
-    margin-left: 100px;
-}
 
-ul, li {
-    display: flex;
-    margin-right: 40px;
-}
 
 .nav-icon {
     width: 62px;
@@ -470,23 +517,7 @@ ul, li {
     display: block;
 }
 
-nav {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 62px;
-    margin-left: 100px;
-}
 
-ul, li {
-    display: flex;
-    margin-right: 40px;
-}
-
-.nav-icon {
-    width: 62px;
-    height: 24px;
-    margin-right: 160px;
-}
 
 .logo {
     width: 160px;
